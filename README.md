@@ -32,4 +32,8 @@ amplify push
 
 ## Building the Registration and Login UI
 
+add withAuthenticator HOC
+npm install***
+
+## expo start
 
