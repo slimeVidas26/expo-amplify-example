@@ -16,3 +16,20 @@ amplify configure
 ## Integrating AWS Amplify in React Native
 
 amplify init
+
+npm install aws-amplify aws-amplify-react-native
+
+## integrate Amplify with the Expo app : on app.js
+
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
+
+## Adding Amplify Authentication Resource
+
+amplify add auth
+amplify push
+
+## Building the Registration and Login UI
+
+

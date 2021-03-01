@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "expoamplifyexamplee4c21cb7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
