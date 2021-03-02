@@ -1,6 +1,5 @@
 import React , {useState} from 'react'
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import AppTextInput from '../components/AppTextInput'
 import {Auth} from 'aws-amplify';
 
 import AppTextInput from '../components/AppTextInput';

@@ -1,11 +1,11 @@
-import React from 'react';
-import { StyleSheet, Text, View  , Button} from 'react-native';
+import React , {useState , useEffect} from 'react';
+import { View , ActivityIndicator} from 'react-native';
 import { withAuthenticator} from 'aws-amplify-react-native';
 import { NavigationContainer } from '@react-navigation/native'
 
 
-import AppNavigatorStack from './navigation/AppNavigatorStack'
-import AuthenticationNavigatorStack from './navigation/AuthenticationNavigatorStack'
+import AppNavigatorStack from './src/navigation/AppNavigatorStack'
+import AuthenticationNavigatorStack from './src/navigation/AuthenticationNavigatorStack'
 
 
 
@@ -62,24 +62,17 @@ function App() {
      <NavigationContainer>
         {isUserLoggedIn === 'initializing' && <Initializing />}
         {isUserLoggedIn === 'loggedIn' && (
-          <AppNavigator updateAuthState={updateAuthState} />
+          <AppNavigatorStack updateAuthState={updateAuthState} />
         )}
         {isUserLoggedIn === 'loggedOut' && (
-          <AuthenticationNavigator updateAuthState={updateAuthState} />
+          <AuthenticationNavigatorStack updateAuthState={updateAuthState} />
         )}
       </NavigationContainer>
    
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
 
 
 export default withAuthenticator(App);
