@@ -61,3 +61,5 @@ expo install @react-navigation/native @react-navigation/stack react-native-gestu
  ## Creating a Custom Sign In Screen
 
  ## Making a Custom Sign Up Screen
+
+ ## Adding a Home Screen with Sign Out Button
