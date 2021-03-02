@@ -37,3 +37,22 @@ npm install
 
 ## expo start
 
+## Adding a Logout Functionality with AWS Amplify in React Native
+
+## Creating a Custom Authentication Flow with React Navigation Library
+
+expo install @react-navigation/native @react-navigation/stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+├──src/
+│  └──screens/
+│    └── SignIn.js
+│    └── SignUp.js
+│    └── ConfirmSignUp.js
+│    └── Home.js
+|  └──components/
+│    └── AppButton.js
+│    └── AppTextInput.js
+
+
+## rnfs : react-native-functional-component
+ npm install @expo/vector-icons
