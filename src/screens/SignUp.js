@@ -51,7 +51,7 @@ export default function SignUp({navigation}) {
                 textContentType = "emailAdress"
                 />
                 <AppButton title ="Sign Up" onPress = {SignUp}/>
-                <View> style = {styles.footerButtonContainer}>
+                <View style = {styles.footerButtonContainer}>
                     <TouchableOpacity onPress = {()=>navigation.navigate('SignIn')}>
                         <text style = {styles.forgotPasswordButtonText}>
                         Already have an account? Sign In
