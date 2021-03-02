@@ -5,12 +5,12 @@ export default function AppTextInput() {
     return (
         <View style = {styles.container}>
             {
-                leftIcon && (
+                    leftIcon && (
                     <MaterialCommunityIcons
                     name = {leftIcon}
                     size = {20}
                     color = "#6e6869"
-                    style = {styles.icon}
+                    style = {styles.icon}/>
                 )
             }
 

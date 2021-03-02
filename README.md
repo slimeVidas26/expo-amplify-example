@@ -55,4 +55,7 @@ expo install @react-navigation/native @react-navigation/stack react-native-gestu
 
 
 ## rnfs : react-native-functional-component
+
  npm install @expo/vector-icons
+
+ ## Creating a Custom Sign In Screen
