@@ -28,6 +28,7 @@ export default function SignIn() {
         <View style = {styles.container}>
             <Text style = {styles.title}>Sign in to your account</Text>
             <AppTextInput
+            style = {styles.textInput}
             value = {username}
             onChangeText = {text => setUsername(text)}
             leftIcon = "account"
@@ -86,5 +87,6 @@ const styles = StyleSheet.create({
         color : 'tomato',
         fontSize : 18,
         fontWeight : '600'
-    }
+    },
+   
 })
