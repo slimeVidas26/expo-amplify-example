@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, TextInput, View } from 'react-native'
 
-export default function AppTextInput() {
+export default function AppTextInput({ leftIcon, ...otherProps }) {
     return (
         <View style = {styles.container}>
             {
