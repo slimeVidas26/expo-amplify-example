@@ -59,3 +59,5 @@ expo install @react-navigation/native @react-navigation/stack react-native-gestu
  npm install @expo/vector-icons
 
  ## Creating a Custom Sign In Screen
+
+ ## Making a Custom Sign Up Screen
